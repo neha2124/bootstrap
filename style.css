@@ -1,0 +1,33 @@
+
+.navbar-toggler{
+background-color: antiquewhite;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem;
+    
+}
+
+ @media(min-width :651px) and (max-width: 999px){
+    .flex{
+        margin: 2rem;
+    }
+} 
+.navbar{
+    background-color: rgba(0, 0, 0);
+    /* opacity: .8; */
+}
+.nav-link{
+    color: antiquewhite;
+}
+.nav-link:hover{
+    color: aquamarine;
+}
+
+.active{
+    color: aqua !important;
+}
+
